@@ -1,0 +1,104 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+  }
+  
+  body{
+    background-color: #F0F0F6;
+  }
+  .contact-us{
+    background-color: #FFB400;
+  }
+  
+  /* Priceplan */
+  .plan-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .plan-container2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .plan-header-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+  
+  }
+  .plan-title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .plan-des{
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .plan-box-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .plan-box{
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 8px 6px #E4E6EB;
+    padding: 40px;
+  }
+  .plan-name{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 0px 0px 30% ;
+  }
+  .price-pan{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 0px 0px 20% ;
+  }
+  .plan-detail{
+    font-size: 15px;
+    text-align: center;
+  }
+  .plan-list{
+    padding: 10px;
+  }
+  .plan-list li{
+    line-height: 35px;
+  }
+  .plan-icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .hero-btn{
+    padding: 7px 20px 7px 20px;
+    background-color: #FFB400;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: 30px;
+  }
+  

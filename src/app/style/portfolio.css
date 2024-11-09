@@ -1,0 +1,125 @@
+
+.portfolio-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+  
+  }
+  .portfolio-container2{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .portfolio-header-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+  
+  }
+  .portfolio-title{
+    font-size: 30px;
+    font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .portfolio-des{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .portfolio-box-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+  }
+  .portfolio-box{
+    width: 300px;
+    height: 220px;
+    margin: 3px;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 8px 6px #E4E6EB;
+    border: 2px solid gray;
+    /* padding: 15px 20px; */
+  }
+  /* back images */
+ 
+ .box-images{
+    width: 100%;
+    height: 216px;
+    opacity: 1;
+  }
+  .box-images:hover{
+    opacity: 0.3;
+  }
+   .portfolio-box{
+    background-color: #FFB400;
+    transition: all 2s ease-in-out 2s;
+    cursor:pointer;
+  }
+  
+  .port-links li{
+    list-style-type: none;
+  }
+   .port-link-container{
+    width: 70%;
+    padding-top: 15px;
+   }
+  .port-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+  .port-links li:hover{
+    color: #FFB400;
+    cursor: pointer;
+  }
+  .plus-icon{
+    font-size: 30px;
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    opacity: 0;
+    
+  }
+  .portfolio-box:hover .plus-icon{
+    opacity: 1;
+  
+  }
+  @media screen and (min-width: 100px) and (max-width: 768px){
+    .port-link-container{
+        width: 100%;
+        padding-top: 10px;
+       }
+      .port-links{
+        width: 100%;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 5px;
+      }
+      .link-hide{
+        display: none;
+      }
+      .portfolio-header-box{
+        width: 100%;
+      }
+      .portfolio-title{
+        font-size: 20px;
+      }
+  }

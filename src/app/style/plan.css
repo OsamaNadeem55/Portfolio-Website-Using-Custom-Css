@@ -1,0 +1,146 @@
+/* Priceplan */
+
+.plan-container{
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+
+}
+.plan-container2{
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.plan-header-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  text-align: center;
+
+}
+.plan-title{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.plan-des{
+  font-size: 15px;
+  padding-top: 10px;
+}
+.plan-box-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: center;
+}
+.plan-box{
+  width: 300px;
+  height: 100%;
+  margin: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 8px 6px #E4E6EB;
+  padding: 25px 30px;
+  position: relative;
+  
+}
+.most-popular{
+   position: absolute;
+   background-color: #FFB400;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+  font-size: 16px;
+  opacity: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  transition: opacity 1s;
+}
+
+.group:hover .most-popular {
+  opacity: 1;
+}
+.plan-name{
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 23%;
+
+}
+.price-pan{
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.plan-detail{
+  font-size: 15px;
+  text-align: center;
+}
+.plan-list{
+  padding: 10px;
+}
+.plan-list li{
+  line-height: 35px;
+}
+.plan-icon{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.plan-icon-yes{
+  font-size: 20px;
+  margin-right: 10px;
+  color: #FFB400;
+}
+.plan-icon-no{
+  font-size: 20px;
+  margin-right: 10px;
+  /* font-weight: bold; */
+  color: gray;
+}
+.hiden{
+  color: gray;
+}
+.show{
+  font-weight: 600;
+}
+.order-btn{
+  padding: 10px 25px 10px 25px;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 13%;
+  box-shadow: 1px 1px 8px 6px #E4E6EB;
+  border: none;
+  cursor: pointer;
+}
+.order-btn:hover{
+  background-color: #FFB400;
+}
+
+@media screen and (min-width: 100px) and (max-width: 768px){
+  .plan-title{
+    font-size: 20px;
+  }
+  .plan-name{
+    font-size: 20px;
+  
+  }
+  .price-pan{
+    font-size: 20px;
+    font-weight: bold;
+     
+  }
+}

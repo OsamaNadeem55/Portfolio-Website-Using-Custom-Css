@@ -1,0 +1,99 @@
+/* Priceplan */
+.recomm-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    max-width: 1500px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .recomm-container2{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .recomm-header-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+  
+  }
+  .recomm-title{
+    font-size: 30px;
+    font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .recomm-des{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .recomm-box-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+  }
+  .recomm-box{
+    width: 310px;
+    height: 280px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 8px 6px #E4E6EB;
+    padding: 15px 20px;
+  }
+  .recomm-star{
+    display: flex;
+  }
+  .star{
+    font-size: 30px;
+    color: #FFB400;
+    padding-right: 5px;
+  }
+  .recomm-box-head{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .recomm-box-title{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .client-profiles-box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .cint-content{
+    padding-left: 15px;
+  }
+  .client-profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .cleint-name{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .clint-deprmnt{
+    font-size: 14px;
+  }
+  @media screen and (min-width: 100px) and (max-width: 768px){
+    .recomm-title{
+      font-size: 20px;
+    }
+  }
